@@ -1,0 +1,29 @@
+{
+  "name": "aframe-360-image-gallery-template",
+  "description": "360° Image Gallery. Made with A-Frame, a WebVR framework.",
+  "author": "A-Frame authors",
+  "version": "0.1.1",
+  "license": "CC0-1.0",
+  "repository": "aframevr-userland/aframe-360-image-gallery-template",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "aframe serve",
+    "bootstrap": "oao bootstrap",
+    "status": "oao status",
+    "component-add": "oao add .",
+    "component-remove": "oao remove .",
+    "component-upgrade": "oao upgrade .",
+    "component-outdated": "oao outdated"
+  },
+  "dependencies": {
+    "aframe": "^0.5.0",
+    "aframe-animation-component": "^3.2.5",
+    "aframe-event-set-component": "^3.0.3",
+    "aframe-layout-component": "^4.1.0",
+    "aframe-template-component": "^3.2.1"
+  },
+  "devDependencies": {
+    "aframe-cli": "0.1.1",
+    "oao": "^0.8.2"
+  }
+}
